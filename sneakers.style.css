@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #af69ee; /* Background color */
+    color: #ffffff; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff; /* White navbar */
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.navbar img {
+    width: 60px; /* Logo size */
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar h1 {
+    color: #2e004f; /* Dark purple navbar title */
+    margin-left: 80px; /* Spacing from logo */
+    font-weight: 600;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    color: #ffffff; /* White collection title */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.product {
+    background-color: #ffffff; /* Product card background */
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    color: #af69ee; /* Dark purple product title */
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.product p {
+    color: #555555; /* Grey product description */
+}
+
+.product button {
+    background-color: #af69ee; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+}
+
+.product button:hover {
+    background-color: #9339dd; /* Button hover effect */
+}
+
+.footer {
+    background-color: #ffffff; /* White footer */
+    padding: 15px;
+    text-align: center;
+    color: #2e004f; /* Dark purple footer text */
+}
+
+.footer p {
+    margin: 0;
+}
